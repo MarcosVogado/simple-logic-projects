@@ -36,6 +36,7 @@ body {
     padding: 12px;
     overflow: hidden;
     position: relative;
+    min-width: 210px; /* ou o valor que preferir */
 }
 
 .kanban-column::after {
@@ -114,6 +115,21 @@ body {
     border-radius: 12px;
 }
 
+.card-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-icons {
+    display: flex;
+    gap: 18px;
+}
+
+.card-icons i {
+    color: #a8a8aa;
+}
+
 .badge.high {
     background-color: #d573b6;
 }
@@ -124,4 +140,11 @@ body {
 
 .badge.low {
     background-color: #92a5fb;
+}
+
+.user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
 }
