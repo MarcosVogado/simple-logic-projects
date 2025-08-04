@@ -148,3 +148,17 @@ body {
     border-radius: 50%;
     object-fit: cover;
 }
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: #eaeffa;
+    border-radius: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #84b7ff;
+    border-radius: 20px;
+}
