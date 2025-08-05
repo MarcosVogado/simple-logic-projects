@@ -1,7 +1,7 @@
 # simple-logic-projects
 Let's build awesome Projects with  HTML, CSS & JS.
 
-<img src="src/images/githubimage.png" alt="">
+<img src="/kanban/src/images/githubimage.png" alt="">
 
 # Kanban Board
 
